@@ -35,7 +35,7 @@ Mint a permanent on-chain memento for each book you finish. Collection: "Read Bo
 3. Verify with `read_contract`: `owner() view returns (address)` at the predicted address.
 
 Deployed instances:
-- owner 0x35f3563c4bfc804bf60568bd7d2436d58be8064f (skill creator) → `0x9D10F5A14DdB49FdE8c036596B79Df31F51482F4`
+- owner 0x35f3563c4bfc804bf60568bd7d2436d58be8064f (skill creator) → `0x9D10F5A14DdB49FdE8c036596B79Df31F51482F4` (deploy tx 0x8d3188d8a9c0d3d0c6fa00d9abd2e04ba4e59b93f7e32d9e7d797c99940faeea)
 
 ## Minting a book
 
@@ -51,7 +51,7 @@ Deployed instances:
    - to: the deployed contract
    - functionSignature: `mint(address to, string uri)`
    - args: [owner wallet, data URI]
-   - value: the mintFeeWei amount converted to ETH (e.g. fee 27139092807650 wei → "0.00002713909280765"); use "0" if you are the skill creator
+   - value: the mintFeeWei amount converted to ETH (e.g. fee 27007921048189 wei → "0.000027007921048189"); use "0" if you are the skill creator
 
 ## Notes
 
